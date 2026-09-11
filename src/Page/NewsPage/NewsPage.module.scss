@@ -1,0 +1,137 @@
+
+
+
+
+.SectionBase{
+    background: #1A1A1A;
+    width: 100%;
+    height: 45vh;
+    border-bottom: 2px solid #262626; /* Добавит сплошную рамку толщиной 2px */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .OneDiv{
+    width: 100%;
+    height: auto;
+    background-color: #1A1A1A;
+    color: #FFFFFF;
+    }
+    .TextDiv{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 45vh;
+        border-color: #262626;
+        border-width: 1px;
+    }
+    .TextDiv p{
+        align-items: center;
+        font-size: 80px;
+        width: 65%;
+        height: 30%px;
+        span{
+            display: inline-block;
+            width: 955px;
+            height: 25%;
+            font-size: 18px;
+            padding-left: 40px;
+            color: #98989A;
+        }
+    }
+    .DivCenter{
+        width: 65%;
+        height: 75%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .GlobalClimate{
+            width: 60%;
+            height: 90%;
+            display: flex;
+            justify-content: space-between;
+            align-items: start;
+            flex-direction: column;
+            .GlobalTop{
+                width: 100%;
+                height: 35%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                .GlobalTopWhite{
+                    color: #FFFFFF;
+                    font-weight: 600;
+                    font-size: 32px;
+                }
+                .GlobalTopGray{
+                    color: #98989A;
+                    font-weight: 400;
+                    font-size: 20px;
+                }
+            }
+            .GlobalMid{
+                width: 50%;
+                height: 25%;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                margin-top: 2%;
+                .GlobalMid_1{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    width: 33%;
+                    height: 60%;
+
+                    .GlobalMid_1W{
+                        color: #98989A;
+                    }
+                    .GlobalMid_1G{
+                        color: #FFFFFF;
+                    }
+                }
+                .GlobalMid_2{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    width: 33%;
+                    height: 60%;
+
+                    .GlobalMid_1W{
+                        color: #98989A;
+                    }
+                    .GlobalMid_1G{
+                        color: #FFFFFF;
+                    }
+                }
+                .GlobalMid_3{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    width: 33%;
+                    height: 60%;
+
+                    .GlobalMid_1W{
+                        color: #98989A;
+                    }
+                    .GlobalMid_1G{
+                        color: #FFFFFF;
+                    }
+                }
+            }
+            .GlobalBot{
+                width: 100%;
+                height: 25%;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                .GlobalBotLeft{
+                    width: 20%;
+                    height: 70%;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                }
+            }
+        }
+    }
+}
