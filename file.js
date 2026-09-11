@@ -1,17 +1,31 @@
 
 // import Logo from './assets/Frame.svg'
-import Logo from './public/Logo.png'
-import ArrowYTopR from './public/ArrowYTopR.png'
-import Ventilator from './public/Ventilator.png'
-import Like from './public/Like.png'
-import Repost from './public/Repost.png'
+import Logo from './src/public/Logo.png'
+import ArrowYTopR from './src/public/ArrowYTopR.png'
+
+import Ventilator from './src/public/Ventilator.png'
+import Like from './src/public/Like.png'
+import Repost from './src/public/Repost.png'
+import img1 from './src/public/img1.png'
+import BigReadMore from './src/public/BigReadMore.png'
+import img2 from './src/public/img2.png'
+import img3 from './src/public/img3.png'
+import Button from './src/public/Button.png'
 
 
 export let Photo = {
 
+    Button:Button,
+    img2:img2,
+    img3:img3,
+    BigReadMore:BigReadMore,
     Like:Like,
     Logo:Logo,
     ArrowYTopR:ArrowYTopR,
     Ventilator:Ventilator,
     Repost:Repost,
+    img1:img1,
+    Logo:Logo,
+    ArrowYTopR:ArrowYTopR,
+
 }
