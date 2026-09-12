@@ -11,10 +11,14 @@ import BigReadMore from './src/public/BigReadMore.png'
 import img2 from './src/public/img2.png'
 import img3 from './src/public/img3.png'
 import Button from './src/public/Button.png'
+import Suda from './src/public/Suda.png'
+import DON from './src/public/DON.png'
+
 
 
 export let Photo = {
-
+    DON:DON,
+    Suda:Suda,
     Button:Button,
     img2:img2,
     img3:img3,
