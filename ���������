@@ -1,0 +1,14 @@
+npm install react-router-dom
+npm i
+
+
+npm install -D sass-embedded
+
+База данных
+npm init -y 
+
+npm i express
+
+npm i pg
+
+npm i cors
